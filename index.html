@@ -4,11 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+    <script src="main.js"></script>
     <title>Hello, world!</title>
   </head>
   <body>
     <main class="container">
       <h1>Hello, world!</h1>
+      <form action="">
+
+        <label for="Prompt">Prompt</label>
+        <input type="text" id="Prompt" name="prompt" placeholder="Prompt" required>
+      
+        <small>We'll never share your email with anyone else.</small>
+      
+        <!-- Button -->
+        <button type="submit" onClick="testResults(this.form)">Submit</button>
+      
+      </form>
     </main>
   </body>
 </html>
