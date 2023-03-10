@@ -13,7 +13,7 @@ function ai21_rewrite(form){
 
     fetch("https://api.ai21.com/studio/v1/experimental/rewrite", {
         method: 'POST',
-        mode: "cors"
+        mode: "cors",
         headers: {
           accept: 'application/json',
           'content-type': 'application/json',
